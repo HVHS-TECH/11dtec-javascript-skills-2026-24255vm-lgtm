@@ -11,14 +11,12 @@ var name="Vaibhav"
 var pocketmoney=20
 var age=15
 var born=2010
-var ten=10
-var two=2
 var isPlayer= true;
-var futureage=age+ten
-var halfmoney=pocketmoney/two
-var halfmoneyplusthree=
+var futureage=age+10
+var halfmoney=pocketmoney/2
+var halfmoneyplusthree=halfmoney+3
 console.log("Hi "+ name +" as of " + year +" you are " + age + " years old " + " I was born in " + born +" in 10 years you will be " + futureage +
-            " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + "then you get 3$, now you have" + halfmoneyplusthree );
+            " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree);
 
 var num1=10;
 var num2=30;
