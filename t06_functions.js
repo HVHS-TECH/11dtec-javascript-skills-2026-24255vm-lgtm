@@ -1,10 +1,14 @@
 /****************************
-This is my intro
+Hello world
 ****************************/
-console.log("Variables")
+
+
 console.log("Find me")
 
-//Variables
+/***************************
+Variables
+******************************/
+console.log("Variables")
 
 var year="2026"
 var name="Vaibhav"
