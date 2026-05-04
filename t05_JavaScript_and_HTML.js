@@ -6,6 +6,7 @@ console.log("Find me")
 
 //Variables
 
+
 var year="2026"
 var name="Vaibhav"
 var pocketmoney=20
@@ -33,6 +34,7 @@ console.log("divide", answer);
 
 
 const OUTPUT = document.getElementById("JavaScriptOutput")
+
 OUTPUT.innerHTML = "<h2> Hi "+ name +" as of " + year +" you are " + age + " years old " + " I was born in " + born +" in 10 years you will be " + futureage +
 " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree +"</h2>"
 

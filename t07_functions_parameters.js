@@ -1,1 +1,69 @@
-/* Paste your code from task 6 here */
+/****************************
+Hello world
+****************************/
+
+
+
+console.log("Find me")
+
+/***************************
+Variables
+******************************/
+console.log("Variables")
+
+var year="2026"
+var name="Vaibhav"
+var pocketmoney=20
+var age=15
+var born=2010
+var isPlayer= true;
+var futureage=age+10
+var halfmoney=pocketmoney/2
+var halfmoneyplusthree=halfmoney+3
+
+
+/****************************
+Main code
+****************************/
+
+console.log("Hi "+ name +" as of " + year +" you are " + age + " years old " + " I was born in " + born +" in 10 years you will be " + futureage +
+    " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree);
+
+var num1=10;
+var num2=30;
+var answer;
+
+answer=num1+num2
+console.log("add", answer);
+answer=num1-num2
+console.log("subtract", answer);
+answer=num1*num2
+console.log("multiply", answer);
+answer=num2/num1
+console.log("divide", answer);
+
+
+const OUTPUT = document.getElementById("JavaScriptOutput")
+OUTPUT.innerHTML = "<h2> Hi "+ name +" as of " + year +" you are " + age + " years old " + " I was born in " + born +" in 10 years you will be " + futureage +
+" you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree +"</h2>"
+
+writeline()
+
+displayproduct(_name)
+
+
+
+/****************************
+Functions
+****************************/
+
+
+function writeline(){
+    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
+}
+
+
+function displayproduct(_name,_product){
+    OUTPUT.innerHTML +="<p>the"+ _name + "</p>";
+}
+

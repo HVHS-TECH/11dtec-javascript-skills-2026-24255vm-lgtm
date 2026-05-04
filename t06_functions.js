@@ -3,6 +3,7 @@ Hello world
 ****************************/
 
 
+
 console.log("Find me")
 
 /***************************
@@ -19,8 +20,14 @@ var isPlayer= true;
 var futureage=age+10
 var halfmoney=pocketmoney/2
 var halfmoneyplusthree=halfmoney+3
+
+
+/****************************
+Main code
+****************************/
+
 console.log("Hi "+ name +" as of " + year +" you are " + age + " years old " + " I was born in " + born +" in 10 years you will be " + futureage +
-            " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree);
+    " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree);
 
 var num1=10;
 var num2=30;
@@ -40,11 +47,6 @@ const OUTPUT = document.getElementById("JavaScriptOutput")
 OUTPUT.innerHTML = "<h2> Hi "+ name +" as of " + year +" you are " + age + " years old " + " I was born in " + born +" in 10 years you will be " + futureage +
 " you have " + pocketmoney + " dollars. you spend half of your money, now you have " + halfmoney + " then you get 3$, now you have " + halfmoneyplusthree +"</h2>"
 
-/****************************
-Main code
-****************************/
-
-
 
 
 
@@ -52,3 +54,8 @@ Main code
 /****************************
 Functions
 ****************************/
+function writeline(){
+    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
+}
+
+writeline()
