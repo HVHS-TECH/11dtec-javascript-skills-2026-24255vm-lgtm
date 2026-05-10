@@ -49,9 +49,9 @@ OUTPUT.innerHTML = "<h2> Hi "+ name +" as of " + year +" you are " + age + " yea
 
 writeline()
 
-displayproduct(_name)
-
-
+displayproduct(" chocolate ",4);
+displayproduct(" chips ", 3);
+displayproduct(" drink ", 2.50);
 
 /****************************
 Functions
@@ -63,7 +63,8 @@ function writeline(){
 }
 
 
-function displayproduct(_name,_product){
-    OUTPUT.innerHTML +="<p>the"+ _name + "</p>";
+
+function displayproduct(_name,_price) {
+    OUTPUT.innerHTML +="<p>the"+ _name +" is " + "$" + _price +  ".</p>";
 }
 
