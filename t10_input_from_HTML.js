@@ -53,6 +53,8 @@ displayproduct(" chocolate ",4);
 displayproduct(" chips ", 3);
 displayproduct(" drink ", 2.50);
 
+
+
 /****************************
 Functions
 ****************************/
@@ -71,4 +73,10 @@ function displayproduct(_name,_price) {
 function start(){
     const OUTPUT = document.getElementById("JavaScriptOutput")
     OUTPUT.innerHTML = "<h2>hello</h2>"
+}
+
+function getFormoutput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let username = NAME_FIELD.value;
+    OUTPUT.innerHTML = "<p>Your name is "+username+"</p>";
 }
