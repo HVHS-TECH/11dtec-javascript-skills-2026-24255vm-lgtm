@@ -21,7 +21,7 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  <div id="spaceForJavaScriptOutput">
+  <div id="JavaScriptOutput">
 
     The output of your script will go here.
 
@@ -29,6 +29,17 @@
 
 
   <script src="../t12_conditionals.js"></script>
+
+  <form onsubmit="return false;">
+    <label for="formName">name:</label>
+    <input type="text" id="nameField" name="formName">
+    <label for="formmoney">money:</label>
+    <input type="number" id="moneyfield" money="formmoney">
+    <label for="formage">age:</label>
+    <input type="number" id="agefield" money="formage">
+    <input type="submit" onClick=getFormoutput()>
+</form>
+
 
 </body>
 

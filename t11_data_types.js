@@ -77,6 +77,10 @@ function start(){
 
 function getFormoutput(){
     const NAME_FIELD = document.getElementById("nameField");
+    const MONEY_FIELD = document.getElementById("moneyfield");
+    const AGE_FIELD = document.getElementById("agefield");
     let username = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your name is "+username+"</p>";
+    let moneyvalue = MONEY_FIELD.value;
+    let agevalue = AGE_FIELD.value;
+    OUTPUT.innerHTML = "<p>Your name is "+username+". You have "+moneyvalue+". You are "+moneyvalue+".</p>";
 }
