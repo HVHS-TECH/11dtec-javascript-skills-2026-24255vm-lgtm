@@ -82,5 +82,22 @@ function getFormoutput(){
     let username = NAME_FIELD.value;
     let moneyvalue = MONEY_FIELD.value;
     let agevalue = AGE_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your name is "+username+". You have "+moneyvalue+". You are "+moneyvalue+".</p>";
+    OUTPUT.innerHTML = "<p>Your name is "+username+". You have "+moneyvalue+". You are "+agevalue+".</p>";
+}
+
+
+
+function money2(){
+    const CHOCO_FIELD = document.getElementById("money2field");
+    var money = CHOCO_FIELD.value;
+    OUTPUT.innerHTML = "<p>"+ money +"$</p>";
+    if(money < 40){
+        console.log("You're too broke")
+    }
+    if(money >= 40){
+        console.log("Ez choco for u")
+    }
+    if(money > 40){
+        console.log("rich kid")
+    }
 }
