@@ -92,12 +92,14 @@ function money2(){
     var money = CHOCO_FIELD.value;
     OUTPUT.innerHTML = "<p>"+ money +"$</p>";
     if(money < 40){
-        console.log("You're too broke")
+        OUTPUT.innerHTML="<h2>You're too broke</h2>"
     }
-    if(money >= 40){
-        console.log("Ez choco for u")
+    else{
+        OUTPUT.innerHTML="<h2>Ez choco for u</h2>"
     }
-    if(money > 40){
-        console.log("rich kid")
-    }
+}
+
+
+
+>function calculateChange(_hours){
 }
