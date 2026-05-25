@@ -37,7 +37,8 @@
     <input type="number" id="moneyfield" money="formmoney">
     <label for="formage">age:</label>
     <input type="number" id="agefield" money="formage">
-    <input type="submit" onClick=getFormoutput()>
+    <input type="submit" onClick="getFormoutput(); calculatechange();">
+    
 </form>
 
 
@@ -47,6 +48,8 @@
   <input type="submit" onClick=money2()>
 </form>
 
+
+<div id="output"></div>
 
 </body>
 

@@ -101,5 +101,8 @@ function money2(){
 
 
 
->function calculateChange(_hours){
+function calculatechange(_money, _price){
+    const CCHANGE_FIELD = document.getElementById("cchangeField");
+    let cchange = CCHANGE_FIELD.value;
+
 }
