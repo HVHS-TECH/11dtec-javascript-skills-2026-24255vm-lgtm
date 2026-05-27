@@ -101,8 +101,13 @@ function money2(){
 
 
 
-function calculatechange(_money, _price){
-    const CCHANGE_FIELD = document.getElementById("cchangeField");
-    let cchange = CCHANGE_FIELD.value;
-
-}
+function calculatechange(){
+    const OUTPUT = document.getElementById("output");
+    const MONEY_FIELD = document.getElementById("moneyfield");
+    let _price = 40;
+    let _money =Number(MONEY_FIELD.value);
+    let balance = _money - _price;
+    OUTPUT.innerHTML = "<h2>You have $"+balance+" dollars left. </h2>"
+    }
+    
+    

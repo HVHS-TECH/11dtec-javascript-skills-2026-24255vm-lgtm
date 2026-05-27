@@ -21,7 +21,7 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  <div id="spaceForJavaScriptOutput">
+  <div id="JavaScriptOutput">
 
     The output of your script will go here.
 
@@ -29,6 +29,39 @@
 
 
   <script src="../t14_arrays_1.js"></script>
+
+  
+  <script src="../t13_functions_return.js"></script>
+
+  <form onsubmit="return false;">
+    <label for="formName">name:</label>
+    <input type="text" id="nameField" name="formName">
+    <label for="formmoney">money:</label>
+    <input type="number" id="moneyfield" name="formmoney">
+    <label for="formage">age:</label>
+    <input type="number" id="agefield" name="formage">
+    <input type="submit" onClick="getFormoutput(); calculatechange();">
+    
+</form>
+
+<div id="output"></div>
+
+<form onsubmit="return false;">
+  <label for="formmoney2">Pay me 40 bucks for choco:</label>
+  <input type="number" id="money2field" name="formmoney2">
+  <input type="submit" onClick=money2()>
+</form>
+
+
+<form  onsubmit="return false;">
+
+<label for="forrandos">Randos:</label>
+<input type="number" id="randofield" name="forrandos">
+<input type="submit" onClick=randos();>   
+
+</form>
+
+<div id="rando"></div>
 
 </body>
 
