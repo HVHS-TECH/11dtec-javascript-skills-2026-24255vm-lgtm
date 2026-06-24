@@ -147,7 +147,14 @@ function bom(){
 }
 
     
-    
-function shoppinglist(){
+    let shoppingArray = [];
 
-}
+    function shoppingList() {
+        const OUTPUT = document.getElementById("shopmilk");
+        const SHOP_FIELD = document.getElementById("shoppingField");
+        shoppingArray.push(SHOP_FIELD.value);
+        OUTPUT.innerHTML = "";
+        for (let i = 0; i < shoppingArray.length; i++) {
+            OUTPUT.innerHTML += "Item " + (i + 1) + ": " + shoppingArray[i] + ". <br>";
+        }
+    }
